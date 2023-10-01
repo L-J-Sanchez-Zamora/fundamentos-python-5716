@@ -1,0 +1,50 @@
+body{
+    width: 40%;
+    height: 80vh;
+}
+.container{
+    background:linear-gradient(to bottom,rgb(188, 252, 191),rgba(239, 252, 163, 0.822),rgb(245, 188, 197)) ;
+    font-size: 1.1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 2rem;
+}
+img{
+    width: 200px;
+    border:5px solid ;
+    border-radius:2%;
+    border-color: aliceblue;
+    text-align: center;
+    transition: transform 1.5s;
+}
+img:hover{
+    transform: scale(0.9);
+    border-radius:50%;
+}
+h1{
+    background-color: rgba(241, 252, 252, 0.808);
+    color:rgb(18, 166, 172);
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    background-color: rgba(241, 252, 252, 0.808);
+    color:rgb(18, 166, 172);
+    padding: 20px;
+    text-align: center;
+}
+strong{
+    color:rgb(18, 166, 172);
+    text-align: center;
+}
+a{
+    font-weight: bold ;
+    text-decoration: transparent;
+    color:rgb(18, 166, 172);
+    text-align: center;
+}
+.contenido{
+margin-left: 1rem;
+}
